@@ -1,0 +1,17 @@
+.Gradient__preview {
+    position: relative;
+    height: 100vh;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.Gradient__settings {
+    position: relative;
+    min-height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 15px 15px 48px;
+    margin-left: -15px;
+    margin-right: -15px;
+}

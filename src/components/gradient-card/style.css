@@ -1,0 +1,248 @@
+.Gradient__preview {
+    position: relative;
+}
+
+.Gradient__settings--content {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.Gradient__code {
+    position: relative;
+    margin: 20px 0;
+    background-color: #C9D6DE;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.Gradient__code .btn {
+    margin: 0;
+}
+
+pre {
+    position: relative;
+    padding: 30px 15px;
+    margin: 0;
+    color: #1E2022;
+    text-align: left;
+}
+
+.gradient-box {
+    height: 100vh;
+    background: #000;
+}
+
+.btn, button {
+    position: relative;
+    display: inline-block;
+    background-color: #209cee;
+    border-radius: 4px;
+    padding: 6px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    border: 1px solid #209cee;
+    border-bottom: 3px solid #1070af;
+    color: #fff;
+    margin: 10px 0;
+    outline: none;
+}
+
+.btn:hover, .btn:focus {
+    opacity: 0.9;
+}
+
+.btn-green {
+    background-color: #20bc56;
+    border-color: #20bc56;
+    border-bottom: 3px solid #18853e;
+}
+
+.btn-yellow {
+    background-color: #ffdd57;
+    border-color: #ffdd57;
+    border-bottom: 3px solid #f0c826;
+    color: #000;
+}
+
+.btn .fa {
+    margin-left: 10px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-group {
+    position: relative;
+}
+
+.btn-group .btn {
+    border-radius: 0;
+    width: 50%;
+    float: left;
+    border-color: #1070af;
+}
+
+.btn-group .btn:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.vertical_icon {
+    transform: rotate(90deg);
+}
+
+.diagonal_icon {
+    transform: rotate(-45deg);
+}
+
+.Gradient__degree {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 20px 0;
+    border: 1px solid #3273dc;
+    border-radius: 4px;
+}
+
+.Gradient__degree--btn {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #3273dc;
+    padding: 15px 10px;
+    border-radius: 0px;
+    color: #3273dc;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.Gradient__degree .fa {
+    display: block;
+}
+
+.gradient-slider {
+    position: relative;
+    height: 6px;
+    margin: 20px 5px;
+    border-radius: 3px;
+}
+
+.gradient-slider--handle {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -9px;
+    top: 50%;
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 0 0 2px #fff, 0 0 3px 2px #d4d4d4;
+}
+
+.gradient-slider--handle:hover {
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+.color-names {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.color-names > * {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.color-names > :hover {
+    cursor: pointer;
+}
+
+.color-input-picker {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+}
+
+.editable {
+    position: relative;
+    margin: 0 5px;
+}
+.editable:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px dashed #d4d3d3;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.color-label--color-dot {
+    width: 5px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 3px;
+    left: 5px;
+    top: 6px
+}
+
+.demo-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    z-index: 99;
+}
+
+.Gradient__demo {
+    position: fixed;
+    background-color: #fff;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px;
+    overflow-y: scroll;
+    z-index: 99999;
+}
+
+.Gradient__demo .show {
+    display: block;
+}
+
+.Gradient__demo .Gradient__demo--inner {
+    position: relative;
+}
+
+.Gradient__demo--card {
+    position: relative;
+    height: 160px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(240,47,194) 0%, rgb(96,148,234) 100%);
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,.5);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.Gradient__demo--card:hover {
+    transform: translateY(-5px)
+}
